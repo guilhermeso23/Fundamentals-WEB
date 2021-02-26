@@ -4,4 +4,5 @@ for(let index = 0 ; index < numbers.length ; index += 1) {
   console.log(numbers[index]);
   sum += numbers[index];
 }
-console.log("Soma dos valores: "+sum);
+console.log("Soma dos valores: " + sum);
+console.log("Média aritmética: " + (sum / numbers.length));

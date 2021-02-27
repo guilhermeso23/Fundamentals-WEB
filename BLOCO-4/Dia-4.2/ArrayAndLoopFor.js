@@ -27,3 +27,4 @@ if(num > 0)
   console.log("Quantidade de numeros impares: " + num);
 else
   console.log("Não tem numeros impares");
+console.log("Menor valor: " + numbers[0]);

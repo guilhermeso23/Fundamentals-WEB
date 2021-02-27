@@ -28,3 +28,8 @@ if(num > 0)
 else
   console.log("Não tem numeros impares");
 console.log("Menor valor: " + numbers[0]);
+for(let index = 0 ; index < numbers.length ; index += 1){
+  if(numbers[index] > 25)
+  break;
+  console.log(numbers[index]);
+}

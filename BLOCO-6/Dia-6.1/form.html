@@ -1,19 +1,63 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Exercicio 6.1 Trybe</title>
-    <link rel="stylesheet" href="styles.css">
+<head lang="pt-br">
+  <meta charset="UTF-8">
+  <title>Exercicio 6.1 Trybe</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Forms - Dia 6.1</h1>
-    </header>
-    <div>
-        <form>
-            
-        </form>
-    </div>
-
+  <header>
+    <h1>Forms - Dia 6.1</h1>
+  </header>
+  <section>
+    <form action="" method="GET">
+      <fieldset>
+        <label for="name">Nome: 
+          <input id="name" name="name" type="text" placeholder="Digite seu nome" required>
+        </label>
+        <br>
+        <label for="email">Email: 
+          <input id="email" type="email" placeholder="Digite seu email" required>
+        </label>
+        <br>
+        <label for="CPF">CPF: 
+          <input id="CPF" type="text" placeholder="Digite seu CPF" required>
+        </label>
+        <br>
+        <label for="endereco">Endereço: 
+          <input id="endereco" type="text" placeholder="Digite seu endereço" required>
+        </label>
+        <br>
+        <label for="cidade">Cidade: 
+          <input id="cidade" type="text" placeholder="Digite sua cidade" required>
+        </label>
+        <br>
+        <label for="estado">Estado
+          <input id="estado" type="checkbox" placeholder="Digite seu estado" required>
+        </label>
+        <br>
+        <label for="radio-button">Tipo: 
+          <input id="radio-button" type="radio" placeholder="Digite seu complemento" required>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="area-texto">Resumo do currículo: 
+          <textarea id="area-texto" placeholder="Digite seu resumo aqui"></textarea>
+        </label>
+        <br>
+        <label for="cargo">Cargo: 
+          <input id="cargo" type="text" placeholder="Digite seu cargo" required>
+        </label>
+        <br>
+        <label for="cargo-texto">Descrição do Cargo: 
+          <textarea id="cargo-texto" placeholder="Digite a descrição do cargo aqui"></textarea>
+        </label>
+        <br>
+        <label for="data">Data: 
+          <input id="data" type="text" required value="dd/mm/aaaa" >
+        </label>
+      </fieldset>
+    </form>
+  </section>
 </body>
 </html>

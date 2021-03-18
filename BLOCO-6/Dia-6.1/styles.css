@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+  }
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#bloco1 {
+  height: 300px;
+}
+
+#bloco2 {
+  height: 150px;
+}
+
+.divLabel {
+  line-height: 1.3;
+}
+
+.divFieldset {
+  padding: 20px;
+}

@@ -17,6 +17,41 @@ fieldset {
   justify-content: space-around;
 }
 
+input, select{
+  padding: 6px;
+  border-radius: 4px;
+}
+
+textarea {
+  padding: 6px;
+  border-radius: 4px;
+  margin: 4px;
+}
+
+button {
+  cursor: pointer;
+  opacity: 0.8;
+  padding: 10px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+#bloco2 label {
+  display: flex;
+  align-items: center;
+}
+
+#bloco2 input {
+  margin: 4px;
+}
+
+#radio-button, #radio-button2 {
+  margin: 4px;
+}
 #bloco1 {
   height: 300px;
 }

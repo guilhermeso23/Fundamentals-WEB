@@ -37,18 +37,20 @@
       </fieldset>
       <fieldset id="bloco2">
         <label class="divLabel" for="area-texto">Resumo do currículo: 
-          <textarea id="area-texto" placeholder="Digite seu resumo aqui"></textarea>
+          <textarea id="area-texto" maxlength="1000" required placeholder="Digite seu resumo aqui"></textarea>
         </label>
         <label class="divLabel" for="cargo">Cargo: 
-          <input id="cargo" type="text" placeholder="Digite seu cargo" required>
+          <input id="cargo" type="text" maxlength="40" required placeholder="Digite seu cargo" required>
         </label>
         <label class="divLabel" for="cargo-texto">Descrição do Cargo:
-          <textarea id="cargo-texto" placeholder="Digite a descrição do cargo aqui"></textarea>
+          <textarea id="cargo-texto" maxlength="500" required placeholder="Digite a descrição do cargo aqui"></textarea>
         </label>
         <label class="divLabel" for="data">Data: 
           <input id="data" type="text" required value="dd/mm/aaaa" >
         </label>
       </fieldset>
+      <button class="button1" type="button">Enviar</button>
+      <button class="button2" type="button">Limpar</button>
     </form>
   </div>
   <script type="text/javascript" src="script.js"></script>

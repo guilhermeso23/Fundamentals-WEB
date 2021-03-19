@@ -9,6 +9,19 @@ function comboBox() {
   }
 }
 
+function dataOk() {
+  const data = document.getElementById('data');
+  if (data[2] === '/' || data[5] === '/') {
+    const dia = data.substr(0, 2);
+    const mes = data.substr(3, 2);
+    const ano = data.substr(6, 4);
+    if ((dia > 0 && dia <= 31) && (mes > 0 && mes <= 12) && (ano >= 0 && ano.length === 4)) {
+      return true;
+    }
+  }
+  return false;
+}
+
 function init() {
   comboBox();
 }

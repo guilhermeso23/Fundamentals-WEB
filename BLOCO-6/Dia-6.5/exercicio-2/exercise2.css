@@ -48,9 +48,37 @@ html {
     text-align: justify;
   }
 
-  @media screen and (min-width: 680) {
+  @media screen and (max-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
 
+    #aside {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-basis: none;
+    }
   }
-  @media screen and (min-width: 980) {
 
+  @media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    header {
+        padding: 10px 30px;
+    }
+    
+    header p {
+        text-align: start;
+    }
+
+    #aside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-basis: none;
+    }
   }
+  

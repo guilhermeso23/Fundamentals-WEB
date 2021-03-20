@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  .container {
+    display: flex;
+
+  }
+
+  header {
+    background-color: bisque;
+    top: 0;
+    left: 0;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  #aside {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    flex-basis: 300px;
+  }
+
+  #aside h2, footer h3 {
+    text-align: center;
+  }
+
+  article {
+    flex-grow: 1;
+    flex-basis: 600px;
+    margin: 0 15px 0 10px;
+  }
+
+  footer {
+    flex-basis: 250px;
+    background-color: azure;
+    padding: 0 5px;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  @media screen and (min-width: 680) {
+
+  }
+  @media screen and (min-width: 980) {
+
+  }

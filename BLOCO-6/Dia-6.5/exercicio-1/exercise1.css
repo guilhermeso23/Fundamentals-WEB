@@ -1,0 +1,59 @@
+body {
+  margin: 0 3%;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 20px;
+}
+h2 {
+  font-size: 18px;
+}
+
+p {
+  text-align: justify;
+}
+
+img {
+  max-width: 100%;
+}
+
+#figuras {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+figure {
+  margin: 0;
+  padding: 10px 0;
+}
+
+@media screen and (min-width: 478px) {
+  body {
+    background-color: blue;
+    margin: 2px 5%;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  figure {
+    width: 45%;
+}
+}
+
+@media screen and (min-width: 978px) {
+  body {
+    background-color: aqua;
+    margin: 4px 7%;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+}

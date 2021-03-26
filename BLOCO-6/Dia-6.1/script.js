@@ -22,6 +22,11 @@ function dataOk() {
   return false;
 }
 
+const submit = document.getElementById('submit');
+const clear = document.getElementById('clear');
+submit.addEventListener('click', submit);
+clear.addEventListener('click', clearForm);
+
 function init() {
   comboBox();
 }

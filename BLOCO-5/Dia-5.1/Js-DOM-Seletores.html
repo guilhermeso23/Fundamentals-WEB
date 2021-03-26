@@ -54,7 +54,7 @@
         let text = document.getElementsByTagName("p");
         text[1].innerText = "Evoluindo em minha carreira Proficional!!";
         document.getElementsByClassName("main-content")[0].style.background = "rgb(76,164,109)";
-        document.getElementsByClassName("center-content")[0].style.background = "white";
+        document.querySelectorAll('.center-content').style.background = "white"
         document.getElementsByTagName("h1")[0].innerText = "Guilherme - Exercício 5.1";
         for (let index = 0; index < text.length; index += 1){
           text[index].style.textTransform = "uppercase";

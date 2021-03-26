@@ -42,6 +42,7 @@ button:hover {
 
 #bloco2 label {
   display: flex;
+  flex-direction: ;
   align-items: center;
 }
 
